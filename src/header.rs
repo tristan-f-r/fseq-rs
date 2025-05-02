@@ -25,7 +25,7 @@ impl FSEQHeader {
         Self {
             // https://gitlab.com/sharebear/fseq_parser/-/blob/master/fseq-nommer/src/lib.rs?ref_type=heads#L135
             channel_data_start_offset: HEADER_LENGTH,
-            minor_version: 1,
+            minor_version: 0,
             major_version: 1,
             header_length: HEADER_LENGTH,
             channel_count: pixels * 3,
